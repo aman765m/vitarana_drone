@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+		<node name="gripper_service" type="gripper_service.py" pkg="vitarana_drone"/>
+        <node name="gripper_clent" type="task2.py" pkg="vitarana_drone"/>
+        <node name="attitude_controller" type="attitude_controller.py" pkg="vitarana_drone"/>
+
+        
+</launch>

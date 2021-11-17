@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	
+	<node name="position" pkg="vitarana_drone" type="position_controller.py" output="screen"/>
+	<node name="attitude" pkg="vitarana_drone" type="attitude_controller.py" output="screen"/>
+	<node name="schd" pkg="vitarana_drone" type="scheduler_algo.py" output="screen"/>
+	
+	
+
+
+
+	
+	
+   
+</launch>
